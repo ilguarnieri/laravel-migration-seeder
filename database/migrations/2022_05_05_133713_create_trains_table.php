@@ -18,9 +18,10 @@ class CreateTrainsTable extends Migration
             $table->string('company', 150);
             $table->string('departure_station');
             $table->string('arrival_station');
+            $table->date('date');
             $table->time('departure_time');
             $table->time('arrival_time');
-            $table->string('code', 100);
+            $table->string('code', 8);
             $table->unsignedTinyInteger('carriages');
             $table->boolean('in_time')->default(true);
             $table->boolean('deleted')->default(false);

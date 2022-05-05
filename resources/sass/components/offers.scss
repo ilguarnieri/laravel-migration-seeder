@@ -1,0 +1,19 @@
+.card_news{
+    color: white;
+    transition: all 300ms linear;
+
+    &:hover{
+        cursor: pointer;
+        opacity: 0.8;
+        transform: scale(1.07);    
+    }
+
+    img{
+        border-radius: 30px;
+    }
+}
+
+.card_title{
+    text-transform: uppercase;
+    bottom: 0;
+}

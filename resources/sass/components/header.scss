@@ -1,0 +1,49 @@
+header{
+    display: contents;
+}
+
+.nav-item{
+
+    .nav-link{
+        color: gray;
+        white-space: nowrap;
+        transition: all 250ms ease-in-out;
+        text-transform: uppercase;
+
+        &:hover{
+            color: #006c67;
+        }
+    }
+
+    .active{
+        color: red;
+    }    
+}
+
+
+.navbar-brand:hover{
+    color: red;
+}
+
+.nav_flag{
+    width: 20px;
+}
+
+.dropdown-menu{
+    min-width: 0;
+    background-color: #F8F9FA;
+}
+
+.dropdown-toggle::after{
+    border: 0;
+    content: "\f078";
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    top: 3px;
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+.navbar a.show::after {
+    content: '\f077';
+}

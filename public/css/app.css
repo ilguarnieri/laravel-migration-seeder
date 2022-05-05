@@ -1,0 +1,117 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+
+.bg_green {
+  color: #006c67;
+}
+
+.btn {
+  white-space: nowrap;
+}
+
+img {
+  max-width: 100%;
+}
+
+header {
+  display: contents;
+}
+
+.nav-item .nav-link {
+  color: gray;
+  white-space: nowrap;
+  transition: all 250ms ease-in-out;
+  text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover {
+  color: #006c67;
+}
+
+.nav-item .active {
+  color: red;
+}
+
+.navbar-brand:hover {
+  color: red;
+}
+
+.nav_flag {
+  width: 20px;
+}
+
+.dropdown-menu {
+  min-width: 0;
+  background-color: #F8F9FA;
+}
+
+.dropdown-toggle::after {
+  border: 0;
+  content: "\F078";
+  font-family: "Font Awesome 5 Free";
+  position: relative;
+  top: 3px;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.navbar a.show::after {
+  content: "\F077";
+}
+
+/* FOOTER */
+
+footer {
+  background: #F8F9FA;
+}
+
+footer ul li {
+  line-height: 35px;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer_logo::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 70px;
+  height: 1px;
+  width: 100%;
+  background-color: #006c67;
+}
+
+.social_icon i {
+  font-size: 25px;
+}
+
+.social_icon i:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.card_news {
+  color: white;
+  transition: all 300ms linear;
+}
+
+.card_news:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.07);
+}
+
+.card_news img {
+  border-radius: 30px;
+}
+
+.card_title {
+  text-transform: uppercase;
+  bottom: 0;
+}
+

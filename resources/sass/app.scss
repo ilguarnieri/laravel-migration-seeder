@@ -1,1 +1,22 @@
-//
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.bg_green{
+    color: #006c67;
+}
+
+.btn{
+    white-space: nowrap;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+
+@import 'components/header.scss';
+@import 'components/footer.scss';
+@import 'components/offers.scss';

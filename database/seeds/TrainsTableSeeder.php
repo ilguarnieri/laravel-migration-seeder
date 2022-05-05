@@ -16,7 +16,7 @@ class TrainsTableSeeder extends Seeder
 
         $companies = ['Trenitalia', 'Italo', 'Treno Nord', 'Ferrotramviaria', 'Rail Cargo'];
 
-        for($i = 0; $i < 100; $i++){
+        for($i = 0; $i < 500; $i++){
 
             $train = new Train();
     
